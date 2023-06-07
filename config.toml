@@ -1,0 +1,30 @@
+base_url = "https://t0hka1.github.io"
+title = "t0hka"
+build_search_index = true
+generate_feed = true
+minify_html = true
+
+theme = "apollo"
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+use_cdn = false
+theme = "auto"
+
+menu = [
+    { name = "/posts", url= "/posts", weight= 1 },
+    { name= "/projects", url= "/projects", weight= 2 },
+    { name= "/about", url= "/about", weight= 3 },
+]
+
+socials = [
+    { name= "twitter", url= "https://twitter.com/t0hka1", icon= "twitter" },
+    { name= "github", url= "https://github.com/t0hka1/", icon = "github" },
+]
+
+[extra.analytics]
+enabled = true
+goatcounter_user = "not-matthias"
