@@ -7,8 +7,9 @@ date = "2022-01-01"
 
 ```rust
 fn main() {
-    println!("Hello World");
+    println!("Hello Rust");
 }
+
 ```
 
 ## Quote
